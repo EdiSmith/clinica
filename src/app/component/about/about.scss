@@ -1,0 +1,75 @@
+.sobre-nos {
+  padding: 4rem 2rem;
+  background-color: #fdfdfd;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #0088cc;
+    margin-bottom: 3rem;
+  }
+
+  .historia {
+    max-width: 800px;
+    margin: 0 auto 4rem auto;
+    text-align: center;
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #00bfa5;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #555;
+    }
+  }
+
+  .equipa {
+    h3 {
+      text-align: center;
+      font-size: 1.8rem;
+      margin-bottom: 2rem;
+      color: #00bfa5;
+    }
+
+    .medicos-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      justify-items: center;
+    }
+
+    .medico-card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      max-width: 300px;
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        object-fit: cover;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+        color: #0088cc;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #666;
+      }
+    }
+  }
+}
